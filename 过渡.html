@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 谁变谁加过渡属性 */
+        /* div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            transition: all 0.5s;
+        }
+
+
+        div:hover {
+            width: 400px;
+            background-color: aqua;
+        } */
+
+        .bar {
+            width: 100px;
+            height: 18px;
+            border: 1px solid rgb(50, 16, 112);
+            border-radius: 7px;
+            margin-left: 20px;
+        }
+
+        .bar_in {
+            transition: all 0.7s;
+            width: 60%;
+            height: 100%;
+            background-color: red;
+        }
+
+        .bar:hover .bar_in {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div></div> -->
+
+    <div class="bar">
+        <div class="bar_in">
+dsadasdas
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
